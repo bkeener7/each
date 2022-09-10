@@ -38,7 +38,7 @@ students.each do |student|
     if student.downcase.include?('a') 
         names_containing_a += 1
     end
-end
+end 
 
 puts names_containing_a
 
